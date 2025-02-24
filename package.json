@@ -1,0 +1,15 @@
+{
+  "name": "boohoo-scraper",
+  "version": "1.0.0",
+  "description": "Apify actor to scrape main product images from Boohoo.",
+  "type": "module",
+  "dependencies": {
+    "apify": "^3.0.0",
+    "crawlee": "^3.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "kedemsean",
+  "license": "MIT"
+}
