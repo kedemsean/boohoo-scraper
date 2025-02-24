@@ -1,7 +1,7 @@
 
-import { Router } from 'crawlee';
+import { createRouter } from 'crawlee';
 
-export const router = Router();
+export const router = createRouter();
 
 router.addDefaultHandler(async ({ request, page, log, pushData }) => {
     log.info(`Scraping product page: ${request.url}`);
